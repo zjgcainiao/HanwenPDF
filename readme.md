@@ -41,7 +41,7 @@ pip install reportlab OpenCC
 ```
 ### Font Setup
 
-Place a Chinese-compatible font (like `NotoSansTC` or `NotoSansCJK.ttf`) into the `fonts/` folder. The script is pre-configured to look for `STHeiti.ttc`.
+Place a Chinese-compatible font (like `NotoSansTC` or `NotoSansCJK.ttf`) into the `fonts/` folder.
 
 ### Permissions
 
