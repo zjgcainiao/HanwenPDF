@@ -2,7 +2,7 @@
 
 **HanwenPDF** is a specialized Python utility designed to transform Simplified Chinese text files into elegant, Traditional Chinese PDF documents. It is optimized for reading on Apple Books, featuring automatic chapter detection, sidebar navigation (bookmarks), and professional typography.
 ```zsh
-./convert_s2t.py 'books/sample_治安策.txt' --output="output/"
+./convert_s2t.py "books/sample_治安策.txt" --output="output/"
 ```
 -----
 
@@ -62,7 +62,7 @@ Run the script by providing the path to your text file:
 You can customize font sizes, margins, and chapter detection patterns by editing the `PDFConfig` class and `chapter_pattern` regex inside `convert_s2t.py`.
 
 ### Default Configuration
-- **Conversion Mode:** `s2t` (Simplified to Traditional)
+- **Conversion Mode:** `s2twp` (Simplified to Traditional-Taiwain)
 - **Margins:** 72pt (1 inch) on all sides.
 - **Font:** Noto Sans TC (placed in `/fonts`)
 
