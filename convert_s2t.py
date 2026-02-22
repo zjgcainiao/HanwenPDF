@@ -276,6 +276,7 @@ def main():
         sys.exit(1)
     if input_path.suffix.lower() !=".txt":
         logging.error(f"Can not process. Requires a .txt file as input")
+        sys.exit(1)
 
     convert_s2t_txt_to_pdf(input_path, output_path)
 
