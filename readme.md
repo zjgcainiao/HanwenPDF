@@ -58,6 +58,10 @@ Run the script by providing the path to your text file:
 ```Bash
 ./convert_s2t.py books/三国演义.txt -o output/
 ```
+
+## 📸 Preview
+![Demo](imgs/demo.png)
+
 ## 🛠 Configuration
 You can customize font sizes, margins, and chapter detection patterns by editing the `PDFConfig` class and `chapter_pattern` regex inside `convert_s2t.py`.
 
