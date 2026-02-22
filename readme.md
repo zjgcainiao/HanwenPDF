@@ -1,6 +1,6 @@
-# HanPDF (漢PDF)
+# HanwenPDF (漢PDF)
 
-**HanPDF** is a specialized Python utility designed to transform Simplified Chinese text files into elegant, Traditional Chinese PDF documents. It is optimized for reading on Apple Books, featuring automatic chapter detection, sidebar navigation (bookmarks), and professional typography.
+**HanwenPDF** is a specialized Python utility designed to transform Simplified Chinese text files into elegant, Traditional Chinese PDF documents. It is optimized for reading on Apple Books, featuring automatic chapter detection, sidebar navigation (bookmarks), and professional typography.
 ```zsh
 ./convert_s2t.py 'books/sample_治安策.txt' --output="output/"
 ```
@@ -17,7 +17,7 @@
 
 ## 📂 Project Structure
 ```text
-HanPDF/
+HanwenPDF/
 ├── convert_s2t.py      # The main executable script
 ├── fonts/              # Store your .ttc or .ttf fonts here
 ├── books/              # Place your source .txt files here
